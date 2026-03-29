@@ -3,37 +3,134 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ガルバ求人サイト</title>
+  <title>ガールズバー求人</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <header>
-    <h1>ガールズバー求人</h1>
-    <p>未経験歓迎・高収入・自由シフト</p>
+  <header class="header">
+    <div class="container header-inner">
+      <div class="logo">Girls Bar Recruit</div>
+      <a href="#contact" class="header-btn">応募する</a>
+    </div>
   </header>
 
   <main>
     <section class="hero">
-      <h2>楽しく働ける女の子を募集中</h2>
-      <p>体験入店OK・日払いOK・駅チカ</p>
-      <a href="#" class="btn">応募はこちら</a>
+      <div class="container hero-inner">
+        <p class="hero-sub">未経験歓迎 / 自由シフト / 高収入</p>
+        <h1>楽しく働ける<br>ガールズバーキャスト募集</h1>
+        <p class="hero-text">
+          体験入店OK・日払いOK・駅チカで働きやすい環境。<br>
+          初めての方でも安心してスタートできます。
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#contact" class="btn btn-primary">今すぐ応募する</a>
+          <a href="#features" class="btn btn-secondary">特徴を見る</a>
+        </div>
+
+        <div class="hero-badges">
+          <span>未経験歓迎</span>
+          <span>日払いOK</span>
+          <span>終電上がり相談可</span>
+        </div>
+      </div>
     </section>
 
-    <section class="features">
-      <h2>お店の特徴</h2>
-      <div class="card-list">
-        <div class="card">
-          <h3>未経験歓迎</h3>
-          <p>初めてでも安心して始められます。</p>
+    <section class="features section" id="features">
+      <div class="container">
+        <div class="section-title">
+          <p class="section-sub">FEATURES</p>
+          <h2>お店の特徴</h2>
         </div>
-        <div class="card">
-          <h3>自由シフト</h3>
-          <p>学校や昼職と両立しやすいです。</p>
+
+        <div class="cards">
+          <div class="card">
+            <div class="card-number">01</div>
+            <h3>未経験歓迎</h3>
+            <p>接客が初めてでも大丈夫。スタッフが丁寧にサポートするので安心して始められます。</p>
+          </div>
+
+          <div class="card">
+            <div class="card-number">02</div>
+            <h3>自由シフト</h3>
+            <p>学校や昼職、プライベートに合わせて働けます。週1からでも相談OKです。</p>
+          </div>
+
+          <div class="card">
+            <div class="card-number">03</div>
+            <h3>日払いOK</h3>
+            <p>急な出費があるときも安心。働いた分をすぐ受け取れるので続けやすい環境です。</p>
+          </div>
         </div>
-        <div class="card">
-          <h3>日払いOK</h3>
-          <p>急な出費があっても安心です。</p>
+      </div>
+    </section>
+
+    <section class="salary section">
+      <div class="container">
+        <div class="section-title">
+          <p class="section-sub">SALARY & BENEFITS</p>
+          <h2>給与・待遇</h2>
+        </div>
+
+        <div class="salary-box">
+          <div class="salary-main">
+            <p class="salary-label">時給</p>
+            <h3>3,000円〜</h3>
+            <p class="salary-note">＋各種バックあり / 日払いOK / ノルマなし</p>
+          </div>
+
+          <div class="salary-list">
+            <div class="salary-item">体験入店OK</div>
+            <div class="salary-item">私服勤務OK</div>
+            <div class="salary-item">駅チカ</div>
+            <div class="salary-item">終電上がり相談OK</div>
+            <div class="salary-item">友達同士応募OK</div>
+            <div class="salary-item">未経験者歓迎</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="flow section">
+      <div class="container">
+        <div class="section-title">
+          <p class="section-sub">FLOW</p>
+          <h2>応募の流れ</h2>
+        </div>
+
+        <div class="flow-list">
+          <div class="flow-item">
+            <span>STEP 1</span>
+            <h3>応募</h3>
+            <p>フォームやSNSから気軽にご連絡ください。</p>
+          </div>
+
+          <div class="flow-item">
+            <span>STEP 2</span>
+            <h3>面談</h3>
+            <p>希望の働き方や不安なことを確認します。</p>
+          </div>
+
+          <div class="flow-item">
+            <span>STEP 3</span>
+            <h3>体験入店</h3>
+            <p>お店の雰囲気を見てからスタートできます。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="container">
+        <div class="contact-box">
+          <p class="section-sub">ENTRY</p>
+          <h2>まずは気軽にご応募ください</h2>
+          <p>
+            未経験の方、短時間で働きたい方、まずは話だけ聞きたい方も歓迎です。
+          </p>
+          <a href="#" class="btn btn-primary">応募はこちら</a>
         </div>
       </div>
     </section>
